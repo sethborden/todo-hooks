@@ -1,0 +1,94 @@
+.todos {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.done-time {
+  font-size: 10px;
+  margin-left: 20px;
+  font-style: italic;
+  color: darkgray;
+}
+
+.delete-button {
+  background: white;
+  border: 1px solid lightcoral;
+  border-radius: 5px;
+  color: crimson;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background: lightcoral;
+  transition: 100ms;
+}
+
+.controls {
+  display: flex;
+}
+
+.todos-list {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 12px;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+.todo {
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.todo input {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.todo input:hover {
+  border-color: lightgray;
+}
+
+.todo input:focus,
+.todo input:hover {
+  border: none;
+  border-bottom: 1px solid darkgray;
+  outline: none;
+  transition: 100ms;
+}
+
+.not-editing {
+  cursor: pointer;
+}
+
+.new-todo {
+  width: 326px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.new-todo input {
+  height: 32px;
+  padding: 8px;
+  font-size: 18px;
+}
